@@ -1,3 +1,12 @@
+#indicador{
+background-color: rgb(87, 84, 84);
+border-radius: 10px;
+height: 35px;
+padding: 5px;
+justify-content: center;
+text-align: center;
+opacity: 8;
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +16,11 @@
 }
 body{
     background-color: #626962;
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header{
     background-color:rgb(44, 44, 43);
@@ -38,4 +52,49 @@ nav div a{
 nav div a:hover{
     border-bottom: 2px solid blACK;
     border-color: rgb(168, 103, 56);
+}
+.contenido{
+   height: 80vh;
+   display: grid;
+   place-items: center;
+
+}
+.contenidoservicios{
+   height: 80vh;
+   display: grid;
+   place-items: center;
+
+}
+.contenidocontactos{
+   height: 80vh;
+   display: grid;
+   place-items: center;
+
+}
+footer{
+    background-color:rgb(44, 44, 43);
+    padding: 10px;
+    text-align: center;
+}
+.galeria{
+    display: flex;
+    width: 508px;
+    height: 450px;
+    
+    
+}
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit:cover;
+    opacity: 8;
+    transition: .5s ease;
+    border: rgb(49, 49, 49) 1px solid;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    border: #626962 solid 1px;
 }
