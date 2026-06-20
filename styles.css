@@ -1,21 +1,19 @@
-#indicador{
-background-color: rgb(87, 84, 84);
-border-radius: 10px;
-height: 35px;
-padding: 5px;
-justify-content: center;
-text-align: center;
-opacity: 8;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+}
+#indicador{
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    heigth:35px;
+    padding: 5px;
+    justify-content: center;
+    opacity: 8;
 }
 body{
-    background-color: #626962;
+    background-color: ;
     background-image: url();
     background-position: center center;
     background-repeat: no-repeat;
@@ -34,6 +32,8 @@ nav img{
     width: 100px;
     padding: 18px;
     margin: 10px;
+    cursor: pointer;
+    
 }
 nav img:hover{
     padding: 10px;
@@ -54,47 +54,85 @@ nav div a:hover{
     border-color: rgb(168, 103, 56);
 }
 .contenido{
-   height: 80vh;
-   display: grid;
-   place-items: center;
-
-}
-.contenidoservicios{
-   height: 80vh;
-   display: grid;
-   place-items: center;
-
-}
-.contenidocontactos{
-   height: 80vh;
-   display: grid;
-   place-items: center;
-
+   height: 100vh;
+   display:;
+   place-items: ;
+   background-color: ;
+  
 }
 footer{
     background-color:rgb(44, 44, 43);
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 }
-.galeria{
-    display: flex;
-    width: 508px;
-    height: 450px;
-    
-    
+
+.textosprincipales{
+padding-top: 2rem;
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fondocasablanca.png);
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:rgb(255, 255, 255);
+padding: 1rem;
 }
-section img{
-    width: 0;
-    flex-grow: 1;
-    object-fit:cover;
-    opacity: 8;
-    transition: .5s ease;
-    border: rgb(49, 49, 49) 1px solid;
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
-section img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-    border: #626962 solid 1px;
+#propiedades{
+    padding: 4rem 3rem;
+    max-width: 1200px;
+    margin: 0;
+}
+#propiedades h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.propiedades-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 2rem;
+
+}
+.propiedades-card{
+    background:white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.propiedades-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.propiedades-card h3{
+    padding: 2rem;
+    color: #333;
+
+}
+.precio{
+    color: #ff6b6b;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+.descripcion{
+    padding: .5rem 1rem;
+    color: #666;
+}
+.boton{
+    margin: 1rem;
+    padding: .5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color:black;
 }
