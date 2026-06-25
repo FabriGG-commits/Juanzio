@@ -36,8 +36,7 @@ nav img{
     margin: 10px;
 }
 nav img:hover{
-    padding: 10px;
-    
+    padding: 10px;   
 }
 nav div{
     display: flex;
@@ -58,8 +57,6 @@ footer{
     display: flex;
     width: 508px;
     height: 450px;
-    
-    
 }
 section img{
     width: 0;
@@ -85,23 +82,37 @@ section img:hover{
 }
 h5{
     text-align: center;
-    background-color: white;
+    background-color: white ;
 }
 h3{
     text-align: center;
-    background-color: white;
+    background-color: white ;
 }
-.instagram{
-    width: 50%;
-    border: solid 5pxpx black;
-    background: background-color:rgb(44, 44, 43);;
+h2{
+    text-align: center;
+    background-color: white ;
 }
-.instagram img{
+.Logo{
     display: flex;
-    width: 25%;
+    width: 100%px;
+    height: 250px;
+    cursor: pointer;
+}
+.Logo{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+div .tabla{
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
-.instagram img: :hover{
-    display: flex;
-    width: ;
+.descrip{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-size: 75px;
 }
